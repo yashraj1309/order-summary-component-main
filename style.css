@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    position: absolute;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+

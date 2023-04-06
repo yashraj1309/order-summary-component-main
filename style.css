@@ -30,13 +30,15 @@ body {
     transform: translate(-50%,-50%);
     border-radius: 8px;
     background-color: white;
+    box-shadow: rgba(0, 0, 255, 0.1) 0px 20px 25px -5px;
+    padding-bottom: 1rem;
 }
 
 .hero-image {
     width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
 }
 
 .padding {
@@ -52,7 +54,7 @@ body {
     background-color: var(--very-pale-blue);
     padding: 1rem;
     border-radius: 8px;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.6rem;
     width: 100%;
 }
 
@@ -64,12 +66,14 @@ body {
     color: var(--dark-blue);
 }
 .content-text p {
-    margin-top: .1rem;
+    margin-top: .2rem;
     color: var(--desaturated-blue);
 }
 
 a {
     font-weight: 700;
+    color: var(--bright-blue);
+    font-size: 14px;
 }
 a:hover {
     opacity: .8;
@@ -83,7 +87,7 @@ h1 {
 }
 
 .padding > p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     color: var(--desaturated-blue);
 }
 
@@ -108,8 +112,7 @@ button:hover {
     font-weight: 900;
     color: var(--desaturated-blue);
     cursor: pointer;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .cancel:hover {

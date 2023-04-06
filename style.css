@@ -72,7 +72,7 @@ a {
     font-weight: 700;
 }
 a:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
 
@@ -97,10 +97,11 @@ button {
     font-weight: 900;
     padding: .7rem;
     cursor: pointer;
+    transition: .3s;
     box-shadow: var(--pale-blue) 0px 2px 1px, var(--pale-blue) 0px 4px 2px, var(--pale-blue) 0px 8px 4px, var(--pale-blue) 0px 16px 8px;
 }
 button:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
 .cancel {
@@ -124,7 +125,7 @@ button:hover {
     .container {
         width: 90%;
         border-radius: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        box-shadow: rgba(0, 0, 255, 0.1) 0px 20px 25px -5px;
     }
     .hero-image {
         border-top-left-radius: 1rem;
@@ -137,10 +138,17 @@ button:hover {
 
     .padding > p {
         font-size: .9rem;
+        line-height: 1.4rem;
+    }
+
+    button {
+        padding: .9rem;
+        margin-top: 1rem;
     }
 
     .cta {
         padding: .5rem;
+        margin-top: 1.3rem;
     }
     .cta strong {
         font-size: .9rem;
@@ -149,7 +157,7 @@ button:hover {
         font-size: .9rem;
     }
     .cancel {
-        margin-top: 2rem;
+        margin-top: 2.2rem;
     }
 
 }
